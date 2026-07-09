@@ -85,9 +85,6 @@
   <data name="ranked" xml:space="preserve">
     <value>Rangert</value>
   </data>
-  <data name="ranked_explanation" xml:space="preserve">
-    <value>Performance points kan bli gitt for de aktive moddene.</value>
-  </data>
   <data name="unranked" xml:space="preserve">
     <value>Urangert</value>
   </data>
