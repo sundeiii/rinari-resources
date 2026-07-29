@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="header" xml:space="preserve">
+    <value>අරාජිකත්වය</value>
+  </data>
+  <data name="relax" xml:space="preserve">
+    <value>Relax</value>
+  </data>
+  <data name="relax_description" xml:space="preserve">
+    <value>කර්සරය පහර දිය හැකි වස්තුවක් මත තිබෙන විට ක්‍රීඩා බොත්තම් ස්වයංක්‍රීයව ඔබයි.</value>
+  </data>
+  <data name="remove_hidden" xml:space="preserve">
+    <value>Hidden ඉවත් කරන්න</value>
+  </data>
+  <data name="remove_hidden_description" xml:space="preserve">
+    <value>Hidden මොඩ් එක සක්‍රියව තිබෙන විටත් ප්‍රවේශ වෘත්ත පෙනෙන ලෙස තබයි.</value>
+  </data>
+  <data name="enable_timewarp" xml:space="preserve">
+    <value>Timewarp සක්‍රිය කරන්න</value>
+  </data>
+  <data name="enable_timewarp_description" xml:space="preserve">
+    <value>ක්‍රීඩාවේ සහ ශබ්දයේ වේගය වෙනස් කරයි.</value>
+  </data>
+  <data name="timewarp_rate" xml:space="preserve">
+    <value>Timewarp වේගය</value>
+  </data>
+  <data name="timewarp_rate_description" xml:space="preserve">
+    <value>Timewarp භාවිතා කරන ක්‍රීඩා වේග ගුණකය පාලනය කරයි.</value>
+  </data>
+  <data name="enable_approach_rate_changer" xml:space="preserve">
+    <value>AR වෙනස් කිරීම සක්‍රිය කරන්න</value>
+  </data>
+  <data name="enable_approach_rate_changer_description" xml:space="preserve">
+    <value>ක්‍රීඩා කරන අතරතුර beatmap එකේ approach rate අගය වෙනස් කරයි.</value>
+  </data>
+  <data name="approach_rate" xml:space="preserve">
+    <value>Approach rate</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>හිට් වස්තු කොපමණ කලින් පෙනෙන්න පටන් ගන්නේද යන්න පාලනය කරයි.</value>
+  </data>
+  <data name="aim_assist" xml:space="preserve">
+    <value>ඉලක්ක සහාය</value>
+  </data>
+  <data name="aim_assist_description" xml:space="preserve">
+    <value>සුළු මඟහැරීම් පහර දිය හැකි වෘත්ත වෙත ස්වයංක්‍රීයව නිවැරදි කරයි.</value>
+  </data>
+  <data name="correction_strength" xml:space="preserve">
+    <value>නිවැරදි කිරීමේ බලය</value>
+  </data>
+  <data name="correction_strength_description" xml:space="preserve">
+    <value>ඉලක්ක නිවැරදි කිරීම සක්‍රිය වීමට කර්සරය වස්තුවට කොපමණ ළඟ විය යුතුද යන්න පාලනය කරයි.</value>
+  </data>
+  <data name="relative_correction" xml:space="preserve">
+    <value>සාපේක්ෂ නිවැරදි කිරීම</value>
+  </data>
+  <data name="relative_correction_description" xml:space="preserve">
+    <value>සකසා ඇති නිවැරදි කිරීමේ බලයට හිට් වස්තුවේ අරය එකතු කරයි.</value>
+  </data>
+</root>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="header" xml:space="preserve">
+    <value>Anarhie</value>
+  </data>
+  <data name="relax" xml:space="preserve">
+    <value>Relax</value>
+  </data>
+  <data name="relax_description" xml:space="preserve">
+    <value>Apasă automat butoanele de joc atunci când cursorul se află deasupra unui obiect care poate fi lovit.</value>
+  </data>
+  <data name="remove_hidden" xml:space="preserve">
+    <value>Elimină Hidden</value>
+  </data>
+  <data name="remove_hidden_description" xml:space="preserve">
+    <value>Păstrează cercurile de apropiere vizibile cât timp modul Hidden este activ.</value>
+  </data>
+  <data name="enable_timewarp" xml:space="preserve">
+    <value>Activează Timewarp</value>
+  </data>
+  <data name="enable_timewarp_description" xml:space="preserve">
+    <value>Modifică viteza jocului și a sunetului.</value>
+  </data>
+  <data name="timewarp_rate" xml:space="preserve">
+    <value>Viteză Timewarp</value>
+  </data>
+  <data name="timewarp_rate_description" xml:space="preserve">
+    <value>Controlează multiplicatorul vitezei de joc folosit de Timewarp.</value>
+  </data>
+  <data name="enable_approach_rate_changer" xml:space="preserve">
+    <value>Activează modificarea AR</value>
+  </data>
+  <data name="enable_approach_rate_changer_description" xml:space="preserve">
+    <value>Înlocuiește valoarea approach rate a beatmap-ului în timpul jocului.</value>
+  </data>
+  <data name="approach_rate" xml:space="preserve">
+    <value>Approach rate</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>Controlează cât de devreme devin vizibile obiectele.</value>
+  </data>
+  <data name="aim_assist" xml:space="preserve">
+    <value>Asistență la țintire</value>
+  </data>
+  <data name="aim_assist_description" xml:space="preserve">
+    <value>Corectează automat ratările foarte apropiate către cercurile care pot fi lovite.</value>
+  </data>
+  <data name="correction_strength" xml:space="preserve">
+    <value>Puterea corecției</value>
+  </data>
+  <data name="correction_strength_description" xml:space="preserve">
+    <value>Stabilește cât de aproape trebuie să fie cursorul de un obiect pentru ca asistența la țintire să se activeze.</value>
+  </data>
+  <data name="relative_correction" xml:space="preserve">
+    <value>Corecție relativă</value>
+  </data>
+  <data name="relative_correction_description" xml:space="preserve">
+    <value>Adaugă raza obiectului la puterea de corecție configurată.</value>
+  </data>
+</root>

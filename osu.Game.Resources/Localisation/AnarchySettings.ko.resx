@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="header" xml:space="preserve">
+    <value>무정부</value>
+  </data>
+  <data name="relax" xml:space="preserve">
+    <value>Relax</value>
+  </data>
+  <data name="relax_description" xml:space="preserve">
+    <value>커서가 타격 가능한 오브젝트 위에 있을 때 게임플레이 키를 자동으로 누릅니다.</value>
+  </data>
+  <data name="remove_hidden" xml:space="preserve">
+    <value>Hidden 제거</value>
+  </data>
+  <data name="remove_hidden_description" xml:space="preserve">
+    <value>Hidden 모드가 활성화되어 있어도 접근 원을 계속 표시합니다.</value>
+  </data>
+  <data name="enable_timewarp" xml:space="preserve">
+    <value>Timewarp 활성화</value>
+  </data>
+  <data name="enable_timewarp_description" xml:space="preserve">
+    <value>게임플레이와 오디오의 속도를 변경합니다.</value>
+  </data>
+  <data name="timewarp_rate" xml:space="preserve">
+    <value>Timewarp 속도</value>
+  </data>
+  <data name="timewarp_rate_description" xml:space="preserve">
+    <value>Timewarp가 사용하는 게임플레이 속도 배율을 조절합니다.</value>
+  </data>
+  <data name="enable_approach_rate_changer" xml:space="preserve">
+    <value>AR 변경 활성화</value>
+  </data>
+  <data name="enable_approach_rate_changer_description" xml:space="preserve">
+    <value>플레이 중 비트맵의 approach rate를 덮어씁니다.</value>
+  </data>
+  <data name="approach_rate" xml:space="preserve">
+    <value>Approach rate</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>히트 오브젝트가 얼마나 일찍 표시되는지 조절합니다.</value>
+  </data>
+  <data name="aim_assist" xml:space="preserve">
+    <value>조준 보정</value>
+  </data>
+  <data name="aim_assist_description" xml:space="preserve">
+    <value>근소한 빗나감을 타격 가능한 원으로 자동 보정합니다.</value>
+  </data>
+  <data name="correction_strength" xml:space="preserve">
+    <value>보정 강도</value>
+  </data>
+  <data name="correction_strength_description" xml:space="preserve">
+    <value>조준 보정이 작동하려면 커서가 오브젝트에 얼마나 가까워야 하는지 조절합니다.</value>
+  </data>
+  <data name="relative_correction" xml:space="preserve">
+    <value>상대 보정</value>
+  </data>
+  <data name="relative_correction_description" xml:space="preserve">
+    <value>설정한 보정 강도에 히트 오브젝트의 반지름을 더합니다.</value>
+  </data>
+</root>

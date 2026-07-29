@@ -1,0 +1,118 @@
+<?xml version='1.0' encoding='utf-8'?>
+<root xmlns:ns1="urn:schemas-microsoft-com:xml-msdata" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:schema id="root">
+    <xs:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xs:element name="root" ns1:IsDataSet="true">
+      <xs:complexType>
+        <xs:choice maxOccurs="unbounded">
+          <xs:element name="metadata">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" use="required" type="xsd:string" />
+              <xs:attribute name="type" type="xsd:string" />
+              <xs:attribute name="mimetype" type="xsd:string" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="assembly">
+            <xs:complexType>
+              <xs:attribute name="alias" type="xsd:string" />
+              <xs:attribute name="name" type="xsd:string" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="data">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" ns1:Ordinal="1" />
+                <xs:element name="comment" type="xsd:string" minOccurs="0" ns1:Ordinal="2" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" ns1:Ordinal="1" />
+              <xs:attribute name="type" type="xsd:string" ns1:Ordinal="3" />
+              <xs:attribute name="mimetype" type="xsd:string" ns1:Ordinal="4" />
+              <xs:attribute ref="xml:space" />
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="resheader">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="value" type="xsd:string" minOccurs="0" />
+              </xs:sequence>
+              <xs:attribute name="name" type="xsd:string" use="required" />
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="header" xml:space="preserve">
+    <value>Anarkiya</value>
+  </data>
+  <data name="relax" xml:space="preserve">
+    <value>Relax</value>
+  </data>
+  <data name="relax_description" xml:space="preserve">
+    <value>Awtomatikong pinipindot ang mga gameplay button kapag nasa ibabaw ng puwedeng tamaang object ang cursor.</value>
+  </data>
+  <data name="remove_hidden" xml:space="preserve">
+    <value>Alisin ang Hidden</value>
+  </data>
+  <data name="remove_hidden_description" xml:space="preserve">
+    <value>Pinananatiling nakikita ang mga approach circle habang aktibo ang Hidden mod.</value>
+  </data>
+  <data name="enable_timewarp" xml:space="preserve">
+    <value>I-enable ang Timewarp</value>
+  </data>
+  <data name="enable_timewarp_description" xml:space="preserve">
+    <value>Binabago ang bilis ng gameplay at audio.</value>
+  </data>
+  <data name="timewarp_rate" xml:space="preserve">
+    <value>Bilis ng Timewarp</value>
+  </data>
+  <data name="timewarp_rate_description" xml:space="preserve">
+    <value>Kinokontrol ang gameplay speed multiplier na ginagamit ng Timewarp.</value>
+  </data>
+  <data name="enable_approach_rate_changer" xml:space="preserve">
+    <value>I-enable ang pagbabago ng AR</value>
+  </data>
+  <data name="enable_approach_rate_changer_description" xml:space="preserve">
+    <value>Pinapalitan ang approach rate ng beatmap habang naglalaro.</value>
+  </data>
+  <data name="approach_rate" xml:space="preserve">
+    <value>Approach rate</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>Kinokontrol kung gaano kaaga nakikita ang mga hit object.</value>
+  </data>
+  <data name="aim_assist" xml:space="preserve">
+    <value>Tulong sa pag-aim</value>
+  </data>
+  <data name="aim_assist_description" xml:space="preserve">
+    <value>Awtomatikong itinatama ang bahagyang sablay papunta sa mga bilog na puwedeng tamaan.</value>
+  </data>
+  <data name="correction_strength" xml:space="preserve">
+    <value>Lakas ng koreksiyon</value>
+  </data>
+  <data name="correction_strength_description" xml:space="preserve">
+    <value>Kinokontrol kung gaano kalapit ang cursor sa isang object bago ma-activate ang aim correction.</value>
+  </data>
+  <data name="relative_correction" xml:space="preserve">
+    <value>Relatibong koreksiyon</value>
+  </data>
+  <data name="relative_correction_description" xml:space="preserve">
+    <value>Idinaragdag ang radius ng hit object sa nakatakdang lakas ng koreksiyon.</value>
+  </data>
+</root>

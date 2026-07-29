@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="header" xml:space="preserve">
+    <value>Anarchy</value>
+  </data>
+  <data name="relax" xml:space="preserve">
+    <value>Relax</value>
+  </data>
+  <data name="relax_description" xml:space="preserve">
+    <value>Automatically presses gameplay buttons when the cursor is over a hittable object.</value>
+  </data>
+  <data name="remove_hidden" xml:space="preserve">
+    <value>Remove Hidden</value>
+  </data>
+  <data name="remove_hidden_description" xml:space="preserve">
+    <value>Keeps approach circles visible while the Hidden mod is active.</value>
+  </data>
+  <data name="enable_timewarp" xml:space="preserve">
+    <value>Enable Timewarp</value>
+  </data>
+  <data name="enable_timewarp_description" xml:space="preserve">
+    <value>Changes the speed of gameplay and audio.</value>
+  </data>
+  <data name="timewarp_rate" xml:space="preserve">
+    <value>Timewarp rate</value>
+  </data>
+  <data name="timewarp_rate_description" xml:space="preserve">
+    <value>Controls the gameplay speed multiplier used by Timewarp.</value>
+  </data>
+  <data name="enable_approach_rate_changer" xml:space="preserve">
+    <value>Enable AR changer</value>
+  </data>
+  <data name="enable_approach_rate_changer_description" xml:space="preserve">
+    <value>Overrides the beatmap's approach rate during gameplay.</value>
+  </data>
+  <data name="approach_rate" xml:space="preserve">
+    <value>Approach rate</value>
+  </data>
+  <data name="approach_rate_description" xml:space="preserve">
+    <value>Controls how early hit objects become visible.</value>
+  </data>
+  <data name="aim_assist" xml:space="preserve">
+    <value>Aim assist</value>
+  </data>
+  <data name="aim_assist_description" xml:space="preserve">
+    <value>Corrects near-misses onto hittable circles using Skooter aim correction.</value>
+  </data>
+  <data name="correction_strength" xml:space="preserve">
+    <value>Correction strength</value>
+  </data>
+  <data name="correction_strength_description" xml:space="preserve">
+    <value>Controls how close the cursor must be to an object before aim correction activates.</value>
+  </data>
+  <data name="relative_correction" xml:space="preserve">
+    <value>Relative correction</value>
+  </data>
+  <data name="relative_correction_description" xml:space="preserve">
+    <value>Adds the hit object's radius to the configured correction strength.</value>
+  </data>
+</root>
