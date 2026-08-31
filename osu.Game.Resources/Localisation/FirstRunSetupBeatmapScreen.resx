@@ -83,6 +83,6 @@
     <value>You can also obtain more beatmaps from the main menu "browse" button at any time.</value>
   </data>
   <data name="currently_loaded_beatmaps" xml:space="preserve">
-    <value>You currently have {0} beatmap(s) loaded!</value>
+    <value>You currently have {0} beatmap loaded!|You currently have {0} beatmaps loaded!</value>
   </data>
 </root>
