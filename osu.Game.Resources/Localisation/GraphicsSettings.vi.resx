@@ -104,7 +104,7 @@
     <value>Tỷ lệ chiều ngang</value>
   </data>
   <data name="vertical_scale" xml:space="preserve">
-    <value>Tỉ lệ chiều dọc</value>
+    <value>Tỷ lệ chiều dọc</value>
   </data>
   <data name="not_fullscreen_note" xml:space="preserve">
     <value>Không sử dụng chế độ toàn màn hình sẽ tăng độ trễ đầu vào của bạn!</value>
@@ -119,7 +119,7 @@
     <value>Chuẩn hóa màu các Combo</value>
   </data>
   <data name="hit_lighting" xml:space="preserve">
-    <value>Phát sáng</value>
+    <value>Hiệu ứng bấm</value>
   </data>
   <data name="screenshots" xml:space="preserve">
     <value>Ảnh chụp màn hình</value>

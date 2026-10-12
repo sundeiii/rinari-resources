@@ -271,6 +271,9 @@
   <data name="step_replay_backward" xml:space="preserve">
     <value>Zum vorherigen Frame springen</value>
   </data>
+  <data name="fast_forward_replay" xml:space="preserve">
+    <value>Replay schnell vorspulen</value>
+  </data>
   <data name="toggle_chat_focus" xml:space="preserve">
     <value>Chat-Fokus umschalten</value>
   </data>
@@ -344,6 +347,6 @@
     <value>Dialog für präzise Positionierung ein-/ausblenden</value>
   </data>
   <data name="editor_discard_unsaved_changes" xml:space="preserve">
-    <value>Ungespeicherte Änderungen verwerfen</value>
+    <value>Ungespeicherte Änderungen verwerfen...</value>
   </data>
 </root>
